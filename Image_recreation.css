@@ -1,0 +1,442 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+body{
+    font-family: math;
+}
+.idea {
+    margin: 0;
+    color: darkblue
+}
+
+.title-font {
+    font-size: 50px;
+    margin: 0%;
+}
+
+.topic-font {
+    font-size: 25px;
+}
+
+.cont-font {
+    font-size: 22px;
+    color: gray;
+}
+
+.text {
+    font-size: 18px;
+    color: gray;
+}
+
+.title {
+    color: gray;
+    width: 20%;
+    text-align: center;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+
+span {
+    color: orangered;
+}
+
+.navigation {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding-left: 50px;
+    text-decoration-style: none;
+    list-style: none;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+li>a {
+    color: gray;
+}
+
+.log-sign {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: center;
+
+}
+
+.signup {
+    margin-left: 5px;
+}
+
+.login,
+.signup {
+    border: 1px solid darkblue;
+    padding: 5px 10px;
+    font-weight: 50;
+    color: darkblue;
+}
+
+.login:hover,
+.signup:hover {
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.leftcol {
+    width: 55%;
+}
+
+.head-font {
+    margin: 0;
+    font-size: 90px;
+    margin-top: 40px;
+}
+
+.rightcol {
+    margin-left: 5%;
+}
+
+.scroll-image {
+    width: 650px;
+}
+
+.getstarted>a {
+    border: 1px solid darkblue;
+    color: white;
+    background-color: darkblue;
+    padding: 10px 30px;
+}
+
+.getstarted {
+    margin-top: 10px;
+    width: 30%;
+
+}
+
+.button,
+.play, .profile, .mailbox, .footer{
+    display: flex;
+    flex-direction: row;
+}
+.playicon {
+    margin-top: 3px; 
+    cursor: pointer;
+}
+.playcontent {
+    color: darkblue;
+    margin-top: 13px;
+    padding-left: 11px !important;
+}
+
+.table {
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+.table-col1,
+.table-col2,
+.table-col3 {
+    margin: 0;
+    width: 33.33%;
+    color: white;
+}
+
+/* <--------------------------------------------------- section 3 -------------------------------------------------------------> */
+.box {
+    border: 2px solid rgb(220, 219, 219);
+    width: 67%;
+    margin-bottom: 25px;
+    padding: 20px;
+    color: darkblue;
+
+}
+
+.boxcol {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+}
+
+.boxright {
+    margin-top: 40px;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(223, 223, 250);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+}
+
+svg {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.box:hover {
+    background-color: darkblue;
+    color: white;
+
+    .circle {
+        background-color: white;
+    }
+
+    .text {
+        color: rgb(223, 222, 222);
+    }
+
+    cursor: pointer;
+}
+
+.sec3-right {
+    width: 50%;
+    margin-top: 80px;
+    color: darkblue;
+}
+
+.explore-hr {
+    width: 140px;
+    border-top: 1px solid red;
+    float: left;
+    margin-top: 10px;
+}
+
+.explore {
+    margin-bottom: 0;
+}
+
+/* <--------------------------------------------------- section 4 -------------------------------------------------------------> */
+.sec4-leftcol {
+    width: 50%;
+    margin-top: 80px;
+    color: darkblue;
+}
+
+.sec4-rightcol {
+    margin-left: 80px;
+}
+
+.xplore-image {
+    width: 650px;
+    height: 650px;
+}
+
+/* <--------------------------------------------------- section 5 -------------------------------------------------------------> */
+.sec5-leftcol {
+    width: 50%;
+    color: darkblue;
+}
+
+.title-hr {
+    width: 60%;
+    float: left;
+}
+
+.sec5-midcol {
+    width: 39%;
+}
+
+/* <--------------------------------------------------- section 6 -------------------------------------------------------------> */
+.columns {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+    margin-right: 6%;
+    color: darkblue;
+}
+
+.col1,
+.col2,
+.col3 {
+    width: 35%; 
+}
+.col2,
+.col3 {
+    margin-left: 5%;
+}
+.txt {
+    padding-left: 20px;
+}
+.sec6-nav>li {
+    padding-left: 144px;
+}
+/* <--------------------------------------------------- section 7 -------------------------------------------------------------> */
+.sec7-col1, .sec7-col3{
+    width: 25%;
+}.sec7-col2 {
+    width: 50%;
+    text-align: center;
+    color: darkblue;
+}
+.sec7-hr {
+    width: inherit;
+    margin-top: 20px;
+}
+/* <--------------------------------------------------- section 8 -------------------------------------------------------------> */
+.fb1 {
+    width: 50%;
+    margin-right: 5%;
+    background-color: darkblue;
+    padding: 20px 30px 20px 30px;
+}
+.fb2 {
+    width: 40%;
+    background-color: darkblue;
+    padding: 20px 30px 20px 30px;
+}
+.name > .cont-font {
+    color: white;
+    margin: 0;
+}
+.fbcircle {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(223, 223, 250);
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.fb1img{
+    width: 120px;
+}
+.fb2img{
+    width: 92px;
+}
+.fb, .fbname {
+    margin:0;
+}
+.fb, .fbcontent, .ft{
+    color: rgb(202, 201, 201);
+}
+.profile {
+    align-items: center;
+}
+/* <--------------------------------------------------- section 9 -------------------------------------------------------------> */
+.section9 {
+    background-color:rgb(224, 224, 229);
+    display: flex;
+    flex-direction: row;
+}
+.sec9-col1, .sec9-col3 {
+    width: 40%;
+}
+.sec9-col2 {
+    margin-top: 100px;
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 50px;
+}
+.mailbox {
+    border: 1px solid darkblue;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+}
+::placeholder {
+    color: darkblue;
+}
+input{
+    border: none;
+    outline: none;
+    color: darkblue;
+    width:150px;
+}
+.mail {
+    margin: 0px 10px 0px 10px;
+   
+}
+.sec9-btn {
+    justify-content: center;
+}
+.sec9-gsrt>a {
+    padding: 9px 40px !important;
+}
+.starimgtop{
+    padding-left: 50%;
+    width: inherit;
+}
+.starimgbtm{
+    padding-left: 10%;
+    padding-top: 75%;
+    width: inherit;
+}
+/* <--------------------------------------------------- Footer -------------------------------------------------------------> */
+.footer {
+    background-color: darkblue;
+}
+.ft-title, .contact {
+   color: white;
+   width: 20%;
+   text-align: center;
+   align-items: center;
+}
+.contact {
+    margin-top: 5px;
+}
+.contact>p {
+    cursor: pointer;
+}
+.ft:hover {
+    color: white !important;
+}
+.li1, .text, .cont-font {
+    padding-left: 0px !important;
+}
+@media only screen and (max-width: 600px) {
+    .title-font{
+        font-size: 40px;
+    }
+    .topic-font{
+        font-size: 18px;
+    }
+    .cont-font {
+        font-size:15px;
+    }
+    .text {
+        font-size: 10px;
+    }
+    .head-font{
+        font-size: 70px;
+    }
+    .scroll-image, .xplore-image {
+        width: 450px;
+    }
+    .img3 {
+width: 250px;
+    }
+
+  }
